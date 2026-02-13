@@ -19,14 +19,14 @@ import loveYouBear from "/src/assets/love-you-bear.gif";
 
 import ghajiniCover from "/src/assets/ghajini.jpg";
 import aasaCover from "/src/assets/aasa_orave.jpg";
-import cuckooCover from "/src/assets/cuckoo.jpg";
-import katradhuTamizhCover from "/src/assets/katradhu-tamizh.jpg";
-import mundasupattiCover from "/src/assets/mundasupatti.jpg";
+import ohohCover from "/src/assets/thangamagan.webp";
+import Enakkaga from "/src/assets/images.jpg";
+import mandramCover from "/src/assets/mundasupatti.jpg";
 
+import enakkaaga from "/src/assets/Enakkaaga-Poranthaayae.mp3";
 import oruMaalai from "/src/assets/Oru-Maalai.mp3";
-import agasatha from "/src/assets/Agasatha.mp3";
-import kadhalKanave from "/src/assets/Kadhal-Kanave.mp3";
-import unakagathanae from "/src/assets/Unakagathanae.mp3";
+import ohoh from "/src/assets/Oh Oh (The First Love of Tamizh).mp3";
+import mandramvantha from "/src/assets/Mandram Vandha Thendralukku.mp3";
 import aasaOrave from "/src/assets/Aasa-Orave.mp3";
 
 import FormPage from "./FormPage.jsx";
@@ -98,19 +98,19 @@ function App() {
       },
       {
         id: 2,
-        title: "Agasatha",
-        duration: "4:59",
-        album: "Cuckoo",
-        cover: cuckooCover,
-        audio: agasatha,
+        title: "Oh Oh (The First Love of Tamizh)",
+        duration: "4:36",
+        album: "Thangamagan - MassTamilan",
+        cover: ohohCover,
+        audio: ohoh,
       },
       {
         id: 3,
-        title: "Unakagathanae",
-        duration: "04:51",
-        album: "Katradhu Tamizh",
-        cover: katradhuTamizhCover,
-        audio: unakagathanae,
+        title: "Enakkaaga-Poranthaayae",
+        duration: "03:41",
+        album: "Pannaiyarum Padminiyum - MassTamilan.com",
+        cover: Enakkaga,
+        audio: enakkaaga,
       },
       {
         id: 4,
@@ -123,11 +123,11 @@ function App() {
 
       {
         id: 5,
-        title: "Kadhal Kanave",
-        duration: "4:08",
-        album: "Mundasupatti",
-        cover: mundasupattiCover,
-        audio: kadhalKanave,
+        title: "Mandram Vandha Thendralukku",
+        duration: "4:47",
+        album: "Mouna Ragam - MassTamilan",
+        cover: mandramCover,
+        audio: mandramvantha,
       },
     ],
     [],

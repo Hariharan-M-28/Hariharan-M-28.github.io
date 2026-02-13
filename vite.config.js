@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/Hariharan-M-28/", // 👈 REQUIRED FOR GITHUB PAGES
+  base: "/Hariharan-M-28.github.io/", // 👈 REQUIRED FOR GITHUB PAGES
 
   plugins: [react()],
 
